@@ -1,5 +1,5 @@
 #软件名称：机房能耗监测
--------
+---
 ###软件功能介绍：
 - 机房简介：简要介绍机房的一些配置参数；
 - 机房供电：介绍机房供电系统；
@@ -20,5 +20,5 @@
 ---
 - 软件主界面:
 ![Alt text](https://github.com/Qiyeah/PowerMonitor/blob/master/Screenshot_20170628-124920.png)
--机房PUE界面:
+- 机房PUE界面:
 ![Alt text](https://github.com/Qiyeah/PowerMonitor/blob/master/Screenshot_20170628-124858.png)
