@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+    <!--    机房简介   -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="750px"
+        android:layout_marginTop="115px"
+        android:gravity="center"
+        android:text="机房简介"
+
+        android:textColor="@android:color/white"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@id/main_btn_info"
+        android:layout_width="@dimen/activity_main_btn_icon_size"
+        android:layout_height="@dimen/activity_main_btn_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="630px"
+        android:layout_marginTop="100px"
+        android:background="@drawable/icon_info"
+        />
+
+    <!--    技术支持   -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="750px"
+        android:layout_marginTop="875px"
+        android:gravity="center"
+        android:text="技术支持"
+
+        android:textColor="@android:color/white"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@id/main_btn_support"
+        android:layout_width="@dimen/activity_main_btn_icon_size"
+        android:layout_height="@dimen/activity_main_btn_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="630px"
+        android:layout_marginTop="860px"
+        android:background="@drawable/icon_support"
+        />
+    <!--    机房供电   -->
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="960px"
+        android:layout_marginTop="255px"
+        android:gravity="center"
+        android:text="机房供电"
+
+        android:textColor="@android:color/white"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@id/main_btn_saving"
+        android:layout_width="@dimen/activity_main_btn_icon_size"
+        android:layout_height="@dimen/activity_main_btn_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="920px"
+        android:layout_marginTop="470px"
+        android:background="@drawable/icon_saving"
+        />
+
+    <!--    机房节能   -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="1040px"
+        android:layout_marginTop="485px"
+        android:gravity="center"
+        android:text="机房节能"
+        android:textColor="@android:color/white"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@id/main_btn_power"
+        android:layout_width="@dimen/activity_main_btn_icon_size"
+        android:layout_height="@dimen/activity_main_btn_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="840px"
+        android:layout_marginTop="240px"
+        android:background="@drawable/icon_power"
+        />
+    <!--    机房荣誉   -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+
+        android:layout_marginRight="960px"
+        android:layout_marginTop="735px"
+        android:gravity="center"
+        android:text="机房荣誉"
+
+        android:textColor="@android:color/white"
+        android:textSize="35sp"/>
+
+    <Button
+        android:id="@id/main_btn_honor"
+        android:layout_width="@dimen/activity_main_btn_icon_size"
+        android:layout_height="@dimen/activity_main_btn_icon_size"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="840px"
+        android:layout_marginTop="720px"
+        android:background="@drawable/icon_honor"
+        />
+    <!--<Button
+        android:background="@drawable/bg_main_pue"
+        android:id="@id/main_btn_pue"
+        android:layout_height="@dimen/activity_main_pue_height"
+        android:layout_width="@dimen/activity_main_pue_width"
+       android:layout_marginTop="108dp"
+        android:layout_marginRight="102dp"
+        android:layout_alignParentRight="true"
+        />-->
+
+    <LinearLayout
+        android:layout_width="730px"
+        android:layout_height="730px"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="220px"
+        android:layout_marginTop="160px"
+        android:background="@drawable/out_circle"
+        android:gravity="center">
+
+        <Button
+            android:id="@id/main_btn_pue"
+            android:textSize="80sp"
+            android:textColor="@android:color/white"
+            android:layout_width="560px"
+            android:layout_height="560px"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-3px"
+            android:background="@drawable/in_circle">
+        </Button>
+    </LinearLayout>
+</RelativeLayout>

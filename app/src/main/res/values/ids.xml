@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="main_btn_info" type="id"/>
+    <item name="main_btn_power" type="id"/>
+    <item name="main_btn_saving" type="id"/>
+    <item name="main_btn_support" type="id"/>
+    <item name="main_btn_honor" type="id"/>
+    <item name="main_btn_pue" type="id"/>
+    <item name="main_img_light" type="id"/>
+    <item name="main_tv_config" type="id"/>
+    <item name="second_lv_list" type="id"/>
+    <item name="second_frame_container" type="id"/>
+    <item name="second_img_show" type="id"/>
+    <item name="second_tv_pueTitle" type="id"/>
+    <item name="second_tv_pueValue" type="id"/>
+    <item name="second_btn_dayPue" type="id"/>
+    <item name="second_btn_monthPue" type="id"/>
+    <item name="second_btn_yearPue" type="id"/>
+    <item name="second_btn_accum_dayPue" type="id"/>
+    <item name="second_btn_accum_monthPue" type="id"/>
+    <item name="second_btn_accum_yearPue" type="id"/>
+    <item name="second_tv_totalEnergy" type="id"/>
+    <item name="second_tv_itEnergy" type="id"/>
+    <item name="second_list_item_img" type="id"/>
+    <item name="second_list_item_text" type="id"/>
+</resources>

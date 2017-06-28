@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    tools:context="com.sunlines.qi.monitor.activity.MainActivity">
+    <TextView
+        android:id="@id/main_tv_config"
+        android:layout_width="200px"
+        android:layout_height="100px"/>
+    <include layout="@layout/layout_btn"
+        />
+    <ImageView
+        android:id="@id/main_img_light"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="975px"
+        android:src="@drawable/light_green"
+        android:layout_width="60px"
+        android:layout_height="60px"/>
+</RelativeLayout>

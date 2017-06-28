@@ -1,0 +1,16 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16px</dimen>
+    <dimen name="activity_vertical_margin">16px</dimen>
+    <dimen name="activity_main_btn_icon_size">100px</dimen>
+    <dimen name="activity_main_btn_pue_height">300px</dimen>
+    <dimen name="activity_main_btn_pue_width">310px</dimen>
+    <dimen name="activity_main_btn_pue_left_margin">800px</dimen>
+    <dimen name="activity_main_btn_pue_top_margin">200px</dimen>
+    <dimen name="activity_second_btn_pue_size">180dp</dimen>
+    <dimen name="activity_second_btn_pue_text_size">45sp</dimen>
+    <dimen name="activity_second_tv_energy_size">50sp</dimen>
+    <dimen name="activity_second_tv_pue_size">55sp</dimen>
+    <dimen name="activity_second_tv_energy_width">240dp</dimen>
+    <dimen name="second_list_item_icon_size">100dp</dimen>
+</resources>

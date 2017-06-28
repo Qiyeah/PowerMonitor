@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:shrinkColumns="0,2,4"
+             android:stretchColumns="0,2,4">
+
+    <TableRow
+        android:gravity="center">
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/main_conn_item_icon"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/main_conn_item_name"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/main_conn_item_state"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            />
+    </TableRow>
+</TableLayout>

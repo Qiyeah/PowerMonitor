@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">机房电能监测</string>
+    <string name="main_global_config_title">机房参数设置</string>
+</resources>

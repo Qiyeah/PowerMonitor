@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/bg_second_right"
+              android:orientation="vertical"
+              android:weightSum="10">
+    <!-- android:background="@drawable/pue"-->
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="400dp"
+            android:layout_height="120dp"
+            android:src="@drawable/second_title"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:layout_width="800dp"
+            android:layout_height="340dp"
+            android:background="@drawable/bg_value_meter"/>
+
+        <LinearLayout
+            android:layout_width="800dp"
+            android:layout_height="340dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/bg_broken_line_graph"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:id="@id/second_tv_pueTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal"
+                android:text="当日PUE值"
+                android:textColor="#fff"
+                android:textSize="@dimen/activity_second_tv_pue_size"
+                />
+
+            <TextView
+                android:id="@id/second_tv_pueValue"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:text="0.000"
+                android:textColor="#fff"
+                android:textSize="@dimen/activity_second_tv_pue_size"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="总能耗："
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/activity_second_tv_energy_size"
+            />
+
+        <TextView
+            android:id="@id/second_tv_totalEnergy"
+            android:layout_width="@dimen/activity_second_tv_energy_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0.000"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/activity_second_tv_energy_size"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kW‧h"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/activity_second_tv_energy_size"
+
+            />
+
+        <TextView
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="IT能耗："
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/activity_second_tv_energy_size"
+            />
+
+
+        <TextView
+            android:id="@id/second_tv_itEnergy"
+            android:layout_width="@dimen/activity_second_tv_energy_width"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0.000"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/activity_second_tv_energy_size"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="kW‧h"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/activity_second_tv_energy_size"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="—————“PUE = 数据中心总设备能耗/IT设备能耗”—————"
+            android:textColor="@android:color/white"
+            android:textSize="45sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@id/second_btn_dayPue"
+            android:layout_width="@dimen/activity_second_btn_pue_size"
+            android:layout_height="@dimen/activity_second_btn_pue_size"
+            android:background="@drawable/pue_day"
+            android:text="\n0.000"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_second_btn_pue_text_size"
+            />
+
+        <Button
+            android:id="@id/second_btn_monthPue"
+            android:layout_width="@dimen/activity_second_btn_pue_size"
+            android:layout_height="@dimen/activity_second_btn_pue_size"
+            android:background="@drawable/pue_month"
+            android:text="\n0.000"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_second_btn_pue_text_size"
+            />
+
+        <Button
+            android:id="@id/second_btn_yearPue"
+            android:layout_width="@dimen/activity_second_btn_pue_size"
+            android:layout_height="@dimen/activity_second_btn_pue_size"
+            android:background="@drawable/pue_year"
+            android:text="\n0.000"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_second_btn_pue_text_size"
+            />
+
+        <Button
+            android:id="@id/second_btn_accum_dayPue"
+            android:layout_width="@dimen/activity_second_btn_pue_size"
+            android:layout_height="@dimen/activity_second_btn_pue_size"
+            android:background="@drawable/pue_24"
+            android:text="\n0.000"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_second_btn_pue_text_size"
+            />
+
+        <Button
+            android:id="@id/second_btn_accum_monthPue"
+            android:layout_width="@dimen/activity_second_btn_pue_size"
+            android:layout_height="@dimen/activity_second_btn_pue_size"
+            android:background="@drawable/pue_30"
+            android:text="\n0.000"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_second_btn_pue_text_size"
+            />
+
+        <Button
+            android:id="@id/second_btn_accum_yearPue"
+            android:layout_width="@dimen/activity_second_btn_pue_size"
+            android:layout_height="@dimen/activity_second_btn_pue_size"
+            android:background="@drawable/pue_365"
+            android:text="\n0.000"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/activity_second_btn_pue_text_size"
+            />
+
+    </LinearLayout>
+</LinearLayout>

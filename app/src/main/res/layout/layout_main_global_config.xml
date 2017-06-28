@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:stretchColumns="0,1"
+             android:background="#A7A395"
+             android:orientation="vertical">
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="IP："
+            android:layout_weight="0.35"
+            android:textSize="30sp"
+            android:textColor="#7C5012"
+            android:gravity="center|right"/>
+
+        <EditText
+            android:id="@+id/ip"
+            android:layout_weight="0.65"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"/>
+    </TableRow>
+    <TableRow>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="楼层号："
+            android:layout_weight="0.35"
+            android:textSize="30sp"
+            android:textColor="#7C5012"
+            android:gravity="center|right"/>
+
+        <EditText
+            android:id="@+id/floor"
+            android:layout_weight="0.65"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="房间号："
+            android:layout_weight="0.35"
+            android:textSize="30sp"
+            android:textColor="#7C5012"
+            android:gravity="center|right"/>
+
+        <EditText
+            android:id="@+id/room"
+            android:layout_weight="0.65"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center|left"/>
+    </TableRow>
+
+</TableLayout>

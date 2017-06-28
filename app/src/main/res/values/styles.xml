@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+   
+    <style name="PUEButton">
+        <item name="android:layout_width">@dimen/pue_btn_size</item>
+        <item name="android:layout_height">@dimen/pue_btn_size</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:text">\n0.00</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/pue_btn_text_size</item>
+    </style>
+
+    <dimen name="pue_btn_size">120dp</dimen>
+    <dimen name="pue_btn_text_size">120dp</dimen>
+</resources>
