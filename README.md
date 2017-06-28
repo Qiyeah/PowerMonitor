@@ -30,11 +30,11 @@
 			<h2>附件：</h2>
 			<hr>
 			<div><h4>软件主界面</h4></div>
-			<div><img src="https://github.com/Qiyeah/PowerMonitor/blob/master/Screenshot_20170628-124920.png" ></div>
+			![Alt text](https://github.com/Qiyeah/PowerMonitor/blob/master/Screenshot_20170628-124920.png)
 			<div>
 				<h4>机房PUE界面</h4>
 			</div>
-			<div><img src="https://github.com/Qiyeah/PowerMonitor/blob/master/Screenshot_20170628-124858.png"></div>
+			![Alt text](https://github.com/Qiyeah/PowerMonitor/blob/master/Screenshot_20170628-124858.png)
 
 		</div>
 
