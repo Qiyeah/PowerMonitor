@@ -1,4 +1,4 @@
-<div>
+<body>
 		<div>
 			<h3 align="center">软件名称：机房能耗监测</h3>
 
@@ -37,5 +37,4 @@
 			![Alt text](https://github.com/Qiyeah/PowerMonitor/blob/master/Screenshot_20170628-124858.png)
 
 		</div>
-
-	</div>
+		</body>
